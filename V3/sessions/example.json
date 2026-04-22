@@ -1,0 +1,67 @@
+{
+  "slug": "example-rooftop-bargain",
+  "createdAt": "2026-04-21T00:00:00Z",
+  "updatedAt": "2026-04-21T00:00:00Z",
+  "genre": "Neon Noir Detective",
+  "tone": "INNER-MONOLOGUE",
+  "language": "en-US",
+  "customPremise": "",
+  "richMode": true,
+  "characters": {
+    "hero": {
+      "imagePath": "refs/example-hero.jpg",
+      "base64File": "sessions/refs/example-hero.base64",
+      "sheet": "- Age: late 20s\n- Build: lean, athletic, slightly slouched posture\n- Face: angular, defined jawline, high cheekbones\n- Skin: warm medium-brown\n- Eyes: dark brown, almond-shaped, straight brows\n- Nose: narrow bridge, slightly upturned tip\n- Mouth: medium-full lips, neutral-serious resting expression\n- Hair: black, short, wavy, side-parted, full hairline\n- Marks: small scar above left eyebrow\n- Carriage: weight forward, ready stance\n- Neutral expression: watchful, slight frown"
+    },
+    "sidekick": {
+      "imagePath": "refs/example-sidekick.jpg",
+      "base64File": "sessions/refs/example-sidekick.base64",
+      "sheet": "- Age: mid 30s\n- Build: tall, broad shoulders, straight posture\n- Face: square, strong jaw\n- Skin: fair with pink undertones\n- Eyes: green, round, thick straight brows\n- Nose: broad bridge, rounded tip\n- Mouth: thin lips, wry half-smile at rest\n- Hair: ash-blonde, shoulder-length, straight, center-part\n- Marks: small silver hoop in right ear\n- Carriage: relaxed, hands-in-pockets tendency\n- Neutral expression: amused, eyebrow slightly raised",
+      "synthetic": false
+    }
+  },
+  "arc": {
+    "title": "The Rooftop Bargain",
+    "logline": "A rain-soaked detective and her cynical partner corner a fixer who offers a trade neither of them can refuse without losing something irreplaceable.",
+    "pages": [
+      {
+        "page": 0,
+        "type": "cover",
+        "focus_char": "hero",
+        "scene": "HERO stands on a neon-lit rooftop in the rain, trench coat flaring, SIDEKICK silhouetted in the background. Skyline of a megacity below, purple and magenta signage reflecting in puddles.",
+        "title_text": "INFINITE HEROES",
+        "wardrobe": { "HERO": "long black trench coat over grey turtleneck, dark jeans, boots", "SIDEKICK": "charcoal blazer, white shirt untucked, gunmetal-tipped gloves" }
+      },
+      {
+        "page": 1,
+        "type": "story",
+        "beat": "inciting_incident",
+        "focus_char": "hero",
+        "scene": "HERO examines a bloody coin under the flickering sign of a 24-hour noodle bar. Rain. SIDEKICK leans on the doorway behind, watching the street.",
+        "caption": "The coin was warm. That was the part that bothered her.",
+        "dialogue": "This isn't a mugging. Whoever did this wanted it found.",
+        "wardrobe": { "HERO": "trench coat, grey turtleneck, dark jeans, boots", "SIDEKICK": "charcoal blazer, white shirt, gunmetal gloves" }
+      },
+      {
+        "page": 3,
+        "type": "decision",
+        "beat": "values_choice",
+        "focus_char": "hero",
+        "scene": "HERO and SIDEKICK face a well-dressed FIXER across a rooftop helipad. Wind. FIXER holds out a burner phone in one hand and a file in the other.",
+        "caption": "He was selling an answer. The only question was which one I could live with after.",
+        "dialogue": "Name, or the evidence. Not both.",
+        "choices": [
+          { "id": "A", "label": "Take the name (betray the case to save a friend)", "philosophy": "loyalty over justice" },
+          { "id": "B", "label": "Take the evidence (close the case even if it burns the friend)", "philosophy": "justice over loyalty" }
+        ],
+        "wardrobe": { "HERO": "trench coat now damp through, turtleneck", "SIDEKICK": "blazer collar up against wind, gloves" }
+      }
+    ]
+  },
+  "progress": {
+    "currentPage": 0,
+    "activeBranch": null,
+    "lastShots": [],
+    "emitted": []
+  }
+}

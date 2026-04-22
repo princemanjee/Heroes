@@ -1,0 +1,11 @@
+# Session state — per-story, may contain personal reference image paths
+sessions/*.json
+!sessions/example.json
+
+# Base64 blobs extracted from user-supplied reference images
+sessions/*.base64
+sessions/refs/
+
+# OS
+.DS_Store
+Thumbs.db
